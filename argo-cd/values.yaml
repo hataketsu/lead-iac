@@ -187,7 +187,7 @@ configs:
 
     ## Server properties
     # -- Run server without TLS
-    server.insecure: false
+    server.insecure: true
     # -- Value for base href in index.html. Used if Argo CD is running behind reverse proxy under subpath different from /
     server.basehref: /
     # -- Used if Argo CD is running behind reverse proxy under subpath different from /
@@ -1647,7 +1647,7 @@ server:
     ## Hostnames must be provided if Ingress is enabled.
     ## Secrets must be manually created in the namespace
     hosts:
-       - argocd.example.com
+       - argocd.thuelike.net
 
     # -- List of ingress paths
     paths:
